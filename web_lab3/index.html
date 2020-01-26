@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" lang="RU">
+    <h1>Лабораторная работа №1</h1>
+</head>
+<body>
+    <title>Заголовок документа в браузере</title>
+    <font face="Arial">Задание начертания шрифта с помощью тега <b>&lt;font&gt;</b></font>
+    <br>
+    <a href="https://drive.google.com/file/d/1DfNc537HGmHDsQdPNN6-S41_IZ01A1xs/view">Так выглядит гиперссылка</a>
+        <table border="1">
+            <tr><th>Простая</th><th>таблица</th></tr>
+            <tr><td>из</td><td><i>нескольких</i></td></tr>
+            <tr><td>строк</td></tr>
+        </table>
+    <ul>
+        <li>маркированный</li>
+        <li>список</li>
+    </ul>
+
+    <p>HTML можно просмотреть, если нажать <kbd>F12</kbd> или <kbd>ctrl+shift+i</kbd></p>
+    <p>Вторая строка для иллюстрации поиска</p>
+    <code>
+        <pre>
+            using System;
+
+            namespace C_
+            {
+                class Program
+                {
+                    static void Main(string[] args)
+                    {
+                        Console.WriteLine("Hello World!");
+                        System.Net.WebClient wc = new System.Net.WebClient();
+                        string url = "https://vscode.ru/filesForArticles/test.docx";
+                        string path = "C:\\Users\\ok198\\Desktop\\C#\\";
+                        string name = "Тестовый файл.docx";
+                        wc.DownloadFile(url, path + name);
+                    }
+                }
+            }
+        </pre>
+</code>
+<img src="Аннотация 2020-01-22 012435.png">
+
+<?php
+echo "Hello world!";
+?>
+
+</body>
+</html>
